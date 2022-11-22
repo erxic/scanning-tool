@@ -16,7 +16,7 @@ untuk menjalankan nya:
 """
 try:
 
-# get host by argument
+    # get host by argument
     ip = socket.gethostbyname(sys.argv[1])  # membaca argument dari console
 
 # initial ports
@@ -46,7 +46,7 @@ try:
         thread.start()
 
 # print jumlah port yang terbuka
-    print(open_ports.__sizeof__, "port yang terbuka")
+    print(open_ports.__sizeof__(), "port yang terbuka")
 
 # jika tidak argument yang akan ditangkap oleh sys.argv[1] maka catch
 except Exception as e:
