@@ -9,5 +9,5 @@
 ## Usage
 
 ```bash
-~$ python3 scanning.py <Host Port>
+~$ python3 scanning.py <IP>
 ```
