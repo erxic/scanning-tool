@@ -2,12 +2,12 @@
 
 ## Require
 
-- python 3  
+- python 3
 - lib
-  - pyfiglet
+- pyfiglet
 
 ## Usage
 
 ```bash
-~$ python3 scanning.py <IP>
+~$ python scanning.py <IP>
 ```
